@@ -248,5 +248,8 @@ def ai_move():
 def get_board():
     return jsonify(fen=board.fen())
 
+
+
+
 if __name__ == 'main':
     app.run(debug=True)
